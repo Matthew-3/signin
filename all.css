@@ -1,0 +1,79 @@
+#write{
+    color: red;
+    margin-top: 0%;
+    margin-left: 20%;
+    min-height: 20.67px;
+    /* border: true; */
+}
+#write1{
+    color: red;
+    margin-top: -20%;
+    margin-left: 20%;
+    margin-bottom: 10%;
+    min-height: 20.67px;
+    /* border: true; */
+}
+body{
+    background-color: rgb(207, 245, 255);
+    overflow-y: hidden;
+    user-select: none;
+}
+div.login{
+    overflow: hidden;
+    background-color: white;
+    margin-left: 35%;
+    margin-top: 2%;
+    margin-right: 35%;
+    margin-bottom: 20%;
+}
+input{
+    margin-top: 5%;
+    margin-left: 20%;
+    padding-top: 3%;
+    color: rgb(131, 131, 131);
+    padding-bottom: 3%;
+    padding-left: 2%;
+    text-align: left;
+    font-size: 150%;
+    /* border: 0%; */
+    border: 2px solid rgb(92, 243, 243);
+    border-radius: 10px;
+    overflow: hidden;
+}
+input:focus{
+    outline:none;
+    border: 2px solid rgb(112, 220, 253);
+}
+div.top{
+    font-family: '宋体', 微软雅黑, monospace;
+    color: rgb(131, 131, 131);
+    text-align: center;
+    padding-top: 5%;
+    font-size: 40px;
+}
+img{
+    margin-left: 20%;
+    margin-top: -50%;
+}
+button{
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    font-family: '微软雅黑', Courier, monospace;
+    font-size: 100px;
+    margin-top: -20%;
+    margin-left: 200px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    /* text-align: center; */
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+}
+button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}

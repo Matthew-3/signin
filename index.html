@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>登录</title>
+        <link rel="stylesheet" type="text/css" href="all.css"/>
+        <script src="cookie.js"></script>
+        <!-- <script src="https://unpkg.com/spacingjs" defer></script> -->
+    </head>
+    <body onload="checkcookie()">
+        <div class="login">
+            <div class="top">登录</div><!--SignIn-->
+            <input type="text" id="1" name="SchoolNummber" placeholder="请输入账号..."><br><!--A input box for account-->
+            <div id="write"></div>
+            <input type="text" id="2" name="WeChatNummber" placeholder="请输入密码..." style="margin-bottom: 20%;"><br><!--A input box for key-->
+            <div id="write1"></div>
+            <!-- <input type="text" id="3" name="WeChatNummber" placeholder="请输入生日(如:20070901)"><br>A input box for birthday -->
+            <button onclick="Setit()">提交</button>
+        </div>
+        <img src="excel.png" height="20%" width="20%">
+        <img src="signin.png" height="20%" width="20%" style="margin-left: 30%;">
+    </body>
+</html>
